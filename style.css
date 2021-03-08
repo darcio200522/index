@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+
+body{
+  background: url('tło2.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.btn{
+  width: 200px;
+  top: 0px;
+  height: 60px;
+  background: none;
+  border: 4px solid;
+  color: aqua;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  transition: 0.5s;
+}
+.btn:hover{
+  width: 200px;
+  top: 0px;
+  height: 60px;
+  background: none;
+  border: 4px solid;
+  color: rgb(189, 0, 189);
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+}
+
+.czarny{
+  background: rgba(0, 0, 0, 0.74);
+  position: relative;
+  top: 500px;
+  font: 100px;
+  right: 100%;
+  left: 0%;
+  margin: 100;
+  width: 200%;
+  height: 500px;
+}
+
+h1{
+  position: relative;
+  top: 20px;
+  left: 150px;
+  color: white;
+}
+h3{
+  position: relative;
+  top: 50px;
+  left: 100px;
+  color: white;
+}
